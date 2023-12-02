@@ -1,0 +1,47 @@
+{
+  "name": "@tarrasque/example-plugin",
+  "version": "0.0.0",
+  "description": "Example Plugin for Tarrasque App",
+  "keywords": [
+    "tarrasque",
+    "example",
+    "plugin"
+  ],
+  "homepage": "https://github.com/tarrasqueapp/example-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/tarrasqueapp/example-plugin/issues",
+    "email": "support@tarrasque.app"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "Richard Solomou",
+    "email": "richard@tarrasque.app",
+    "url": "https://tarrasque.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarrasqueapp/example-plugin"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "tsc --noEmit && eslint ."
+  },
+  "dependencies": {
+    "@tarrasque/sdk": "^0.0.4"
+  },
+  "devDependencies": {
+    "@tronite/eslint-config": "^1.0.10",
+    "@tronite/prettier-config": "^1.0.6",
+    "@tronite/tsconfig": "^1.0.5",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4"
+  },
+  "private": true
+}

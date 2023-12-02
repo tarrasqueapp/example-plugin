@@ -1,0 +1,9 @@
+{
+  "id": "example-plugin",
+  "name": "Example Plugin",
+  "description": "This is an example plugin for Tarrasque App.",
+  "author": "Tarrasque App",
+  "icon": "icon.svg",
+  "plugin_url": "https://tarrasqueapp.github.io/example-plugin",
+  "homepage_url": "https://github.com/tarrasqueapp/example-plugin"
+}
