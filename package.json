@@ -34,7 +34,7 @@
     "lint": "tsc --noEmit && eslint ."
   },
   "dependencies": {
-    "@tarrasque/sdk": "^0.0.5"
+    "@tarrasque/sdk": "^0.0.7"
   },
   "devDependencies": {
     "@tronite/eslint-config": "^1.0.10",
