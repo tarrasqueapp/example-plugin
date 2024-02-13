@@ -1,6 +1,7 @@
 {
   "name": "@tarrasque/example-plugin",
   "version": "0.0.0",
+  "private": true,
   "description": "Example Plugin for Tarrasque App",
   "keywords": [
     "tarrasque",
@@ -12,28 +13,28 @@
     "url": "https://github.com/tarrasqueapp/example-plugin/issues",
     "email": "support@tarrasque.app"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarrasqueapp/example-plugin"
+  },
   "license": "AGPL-3.0-or-later",
   "author": {
     "name": "Richard Solomou",
     "email": "richard@tarrasque.app",
     "url": "https://tarrasque.app"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tarrasqueapp/example-plugin"
-  },
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
+    "dev": "vite",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "tsc --noEmit && eslint .",
     "lint-staged": "lint-staged",
-    "prepare": "husky"
+    "prepare": "husky",
+    "preview": "vite preview"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
@@ -52,6 +53,5 @@
     "prettier": "^3.2.5",
     "typescript": "^5.3.3",
     "vite": "^5.1.1"
-  },
-  "private": true
+  }
 }
