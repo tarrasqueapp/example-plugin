@@ -31,7 +31,15 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "tsc --noEmit && eslint ."
+    "lint": "tsc --noEmit && eslint .",
+    "lint-staged": "lint-staged",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@tarrasque/sdk": "^0.0.7"
@@ -39,6 +47,8 @@
   "devDependencies": {
     "@tronite/style-guide": "^0.0.9",
     "eslint": "^8.56.0",
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3",
     "vite": "^5.1.1"
