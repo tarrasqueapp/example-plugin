@@ -2,7 +2,7 @@
   "name": "Example Plugin",
   "description": "This is an example plugin for Tarrasque App.",
   "author": "Tarrasque App",
-  "icon_url": "https://tarrasqueapp.github.io/example-plugin/icon.svg",
-  "plugin_url": "https://tarrasqueapp.github.io/example-plugin/",
+  "icon_url": "http://localhost:5173/example-plugin/icon.svg",
+  "plugin_url": "http://localhost:5173/example-plugin/",
   "homepage_url": "https://github.com/tarrasqueapp/example-plugin"
 }
