@@ -37,11 +37,11 @@
     "@tarrasque/sdk": "^0.0.7"
   },
   "devDependencies": {
-    "@tronite/eslint-config": "^1.0.10",
-    "@tronite/prettier-config": "^1.0.6",
-    "@tronite/tsconfig": "^1.0.5",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4"
+    "@tronite/style-guide": "^0.0.9",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.1"
   },
   "private": true
 }
