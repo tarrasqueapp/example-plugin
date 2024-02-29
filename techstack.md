@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [tarrasqueapp/example-plugin](https://github.com/tarrasqueapp/example-plugin)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|8<br/>Tools used|01/05/24 <br/>Report generated|
+|8<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -107,7 +107,7 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[vite](https://www.npmjs.com/vite)|v5.0.4|12/02/23|Richard Solomou |N/A|[CVE-2023-49293](https://github.com/advisories/GHSA-92r3-m2mg-pj97) (Moderate)|
+|[vite](https://www.npmjs.com/vite)|v5.0.4|12/02/23|Richard Solomou |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)<br/>[CVE-2023-49293](https://github.com/advisories/GHSA-92r3-m2mg-pj97) (Moderate)|
 
 <br/>
 <div align='center'>
